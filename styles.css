@@ -1,0 +1,36 @@
+body{
+  font: normal, arial;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: -10px 10px 15px rgba(0, 0, 0, 0.498);
+}
+#hours{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+#image{
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: 20% 60%;
+  border-radius: 50%;
+}
+footer{
+  margin-top: 70px;
+  font-style: italic;
+}
